@@ -35,6 +35,22 @@ body{
     outline: none;
     transition: border 0.3s, box-shadow 0.3s;
 }
+#contenedor_paises{
+    display: grid;
+    gap: 20px;
+}
+
+.card_pais{
+    background: var(--color-secundario);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    padding: 16px;
+    text-align: center;
+}
+
+.card_pais:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
 
 footer{
     background: #2c3e50;
