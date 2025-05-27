@@ -1,4 +1,8 @@
 {
+  "homepage": "https://nelsongabriel2003.github.io/laboratorio-2-NelsonGabriel2003/",
+  "scripts": {
+    "deploy": "gh-pages -d src"
+  },
   "dependencies": {
     "gh-pages": "^6.3.0"
   }
